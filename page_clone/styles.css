@@ -1,0 +1,111 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Estilos de la barra de navegación */
+  .navbar {
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 30px;
+  }
+  .navbar_left{
+    display: flex;
+  }
+  /* Estilos del logotipo */
+  .logo img {
+    width: 40px;
+    height: 40px;
+  }
+  
+  /* Estilos del formulario de búsqueda */
+  .search-form {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-form input {
+    padding: 8px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  .search-form button {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: rgb(202, 195, 195);
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  /* Estilos de los enlaces de navegación */
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-links li a {
+    text-decoration: none;
+    color: #663030;
+    font-weight: bold;
+  }
+  
+  .nav-links li a:hover {
+    text-decoration: underline;
+  }
+  
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  /* Estilos del contenedor principal de Pinterest */
+  .pinterest-container {
+    column-count: 5;
+    column-gap: 10px;
+    max-width: 1200px;
+    margin: 20px auto;
+  }
+  
+  /* Estilos de los pines */
+  .pin {
+    display: inline-block;
+    width: 100%;
+    background: #8f5959;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+    break-inside: avoid;
+  }
+  
+  .pin img {
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+  
+  .pin p {
+    padding: 10px;
+    font-size: 14px;
+  }
+  
+  /* Estilos del pie de página */
+  .footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
